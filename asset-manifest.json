@@ -1,16 +1,19 @@
 {
   "files": {
     "main.css": "/Truffle/static/css/main.85768c17.css",
-    "main.js": "/Truffle/static/js/main.667ad452.js",
+    "main.js": "/Truffle/static/js/main.97780aa5.js",
     "static/js/787.08c86aa0.chunk.js": "/Truffle/static/js/787.08c86aa0.chunk.js",
+    "static/media/bllage.gif": "/Truffle/static/media/bllage.126ee0f3f53cea6811b9.gif",
     "static/media/pig_eating_md_clr.gif": "/Truffle/static/media/pig_eating_md_clr.84c56b3b5502438c2122.gif",
+    "static/media/pigflying.gif": "/Truffle/static/media/pigflying.2671523b581e254db615.gif",
+    "static/media/truffle_logo_light.png": "/Truffle/static/media/truffle_logo_light.0731cfd6fc40c89d2fc4.png",
     "index.html": "/Truffle/index.html",
     "main.85768c17.css.map": "/Truffle/static/css/main.85768c17.css.map",
-    "main.667ad452.js.map": "/Truffle/static/js/main.667ad452.js.map",
+    "main.97780aa5.js.map": "/Truffle/static/js/main.97780aa5.js.map",
     "787.08c86aa0.chunk.js.map": "/Truffle/static/js/787.08c86aa0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.85768c17.css",
-    "static/js/main.667ad452.js"
+    "static/js/main.97780aa5.js"
   ]
 }
