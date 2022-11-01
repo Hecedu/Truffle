@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/truffle/static/css/main.85768c17.css",
+    "main.js": "/truffle/static/js/main.6c7efc27.js",
+    "static/js/787.08c86aa0.chunk.js": "/truffle/static/js/787.08c86aa0.chunk.js",
+    "static/media/pig_eating_md_clr.gif": "/truffle/static/media/pig_eating_md_clr.84c56b3b5502438c2122.gif",
+    "index.html": "/truffle/index.html",
+    "main.85768c17.css.map": "/truffle/static/css/main.85768c17.css.map",
+    "main.6c7efc27.js.map": "/truffle/static/js/main.6c7efc27.js.map",
+    "787.08c86aa0.chunk.js.map": "/truffle/static/js/787.08c86aa0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85768c17.css",
+    "static/js/main.6c7efc27.js"
+  ]
+}
