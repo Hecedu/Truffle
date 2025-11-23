@@ -101,7 +101,14 @@ function App() {
     setDateParts((prev) => ({ ...prev, [key]: value }));
   }
 
-  //force reload on load 
+  useEffect(() => {
+  const handleShow = (event: PageTransitionEvent) => {
+    if (event.persisted) setIsSearching(false);
+  };
+  window.addEventListener('pageshow', handleShow);
+  return () => window.removeEventListener('pageshow', handleShow);
+}, []);
+
   useEffect(() => {
     const storedTheme = localStorage.getItem('isThemeDark');
     if (storedTheme) {
@@ -137,16 +144,19 @@ function App() {
               <p>Dig the past of your favorite websites...</p>
               <form onSubmit={getWebsite}>
                 <input value={companyQuery} onChange={companyChangeHandler} placeholder={"Name or Domain"}></input>
-                <button type='submit'>Dig!</button>
+                <button type='submit' className='mx-2'>Dig!</button>
               </form>
               <div className='my-2'>
                 {isLoadingCompanies && <small>Finding companies...</small>}
-                <div className='d-flex flex-wrap justify-content-center gap-2'>
+                <div
+                  className='d-flex flex-wrap justify-content-center gap-2 mx-auto'
+                  style={{ maxWidth: '520px' }}
+                >
                   {suggestions.map((company) => (
                     <button
                       key={company.domain}
                       type='button'
-                      className={`btn btn-sm ${selectedDomain === company.domain ? 'btn-primary' : 'btn-outline-secondary'}`}
+                      
                       onClick={() => onSuggestionClick(company.domain)}
                     >
                       {company.name} ({company.domain})
