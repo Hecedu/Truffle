@@ -1,7 +1,6 @@
 {
   "name": "truffle",
   "version": "0.1.0",
-  "homepage": "https://hecedu.github.io/Truffle",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
