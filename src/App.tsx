@@ -90,10 +90,6 @@ function App() {
       setIsLoadingCompanies(false);
     }
   }
-  const onSelectDomain = (domain: string) => {
-    setSelectedDomain(domain);
-    setError('');
-  }
   const onSuggestionClick = (domain: string) => {
     setSelectedDomain(domain);
     setError('');
