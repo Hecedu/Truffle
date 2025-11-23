@@ -110,7 +110,7 @@ function App() {
       localStorage.setItem('isThemeDark', JSON.stringify(isThemeDark));
     }
     setIsSearching(false);
-  }, []);
+  }, [isThemeDark]);
 
 
   return (
